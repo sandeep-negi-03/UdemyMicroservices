@@ -1,9 +1,9 @@
 package com.in28minutes.microservices.limitsservice;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 @ConfigurationProperties( prefix = "limits-service")
 public class Configuration {
 
